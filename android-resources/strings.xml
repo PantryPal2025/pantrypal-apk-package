@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PantryPal</string>
+    <string name="title_activity_main">PantryPal</string>
+    <string name="package_name">com.pantrypal.app</string>
+    <string name="custom_url_scheme">pantrypal</string>
+    
+    <!-- Shortcut labels -->
+    <string name="shortcut_scan_short">Scan</string>
+    <string name="shortcut_scan_long">Scan a product barcode</string>
+    <string name="shortcut_recipe_short">Recipe</string>
+    <string name="shortcut_recipe_long">Add a new recipe</string>
+    <string name="shortcut_shopping_short">Shopping</string>
+    <string name="shortcut_shopping_long">View shopping list</string>
+    
+    <!-- Permission explanations -->
+    <string name="camera_permission_rationale">Camera access is needed to scan product barcodes.</string>
+    <string name="storage_permission_rationale">Storage access is needed to save and view product images.</string>
+    
+    <!-- Error messages -->
+    <string name="error_camera_unavailable">Camera is unavailable on this device.</string>
+    <string name="error_barcode_scan_failed">Failed to scan barcode. Please try again.</string>
+    <string name="error_network_unavailable">Network connection is unavailable. Some features may not work.</string>
+    
+    <!-- Success messages -->
+    <string name="success_item_added">Item added to inventory successfully.</string>
+    <string name="success_item_updated">Item updated successfully.</string>
+    <string name="success_item_deleted">Item deleted successfully.</string>
+</resources>

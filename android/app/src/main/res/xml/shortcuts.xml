@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+  <!-- Scan Item shortcut -->
+  <shortcut
+    android:shortcutId="scan"
+    android:enabled="true"
+    android:icon="@drawable/ic_shortcut_scan"
+    android:shortcutShortLabel="@string/shortcut_scan_short"
+    android:shortcutLongLabel="@string/shortcut_scan_long">
+    <intent
+      android:action="android.intent.action.VIEW"
+      android:targetPackage="com.pantrypal.app"
+      android:targetClass="com.pantrypal.app.MainActivity"
+      android:data="pantrypal://scan" />
+  </shortcut>
+  
+  <!-- Add Recipe shortcut -->
+  <shortcut
+    android:shortcutId="recipe"
+    android:enabled="true"
+    android:icon="@drawable/ic_shortcut_recipe"
+    android:shortcutShortLabel="@string/shortcut_recipe_short"
+    android:shortcutLongLabel="@string/shortcut_recipe_long">
+    <intent
+      android:action="android.intent.action.VIEW"
+      android:targetPackage="com.pantrypal.app"
+      android:targetClass="com.pantrypal.app.MainActivity"
+      android:data="pantrypal://recipe/add" />
+  </shortcut>
+  
+  <!-- Shopping List shortcut -->
+  <shortcut
+    android:shortcutId="shopping"
+    android:enabled="true"
+    android:icon="@drawable/ic_shortcut_shopping"
+    android:shortcutShortLabel="@string/shortcut_shopping_short"
+    android:shortcutLongLabel="@string/shortcut_shopping_long">
+    <intent
+      android:action="android.intent.action.VIEW"
+      android:targetPackage="com.pantrypal.app"
+      android:targetClass="com.pantrypal.app.MainActivity"
+      android:data="pantrypal://shopping" />
+  </shortcut>
+</shortcuts>
